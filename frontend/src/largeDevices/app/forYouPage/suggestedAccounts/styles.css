@@ -1,0 +1,56 @@
+.suggestedAccounts {
+  width: 100%;
+}
+
+.suggestedAccounts__accountWrapper {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  padding: 0.3em 0;
+  cursor: pointer;
+}
+
+.suggestedAccounts__accountWrapper:hover {
+  background-color: whitesmoke;
+}
+
+.suggestedAccounts__avatarWrapper {
+  width: 35px;
+  height: 35px;
+}
+
+.suggestedAccounts__accountWrapper img {
+  width: 100%;
+  height: auto;
+  border-radius: 100%;
+  object-fit: cover;
+  flex: 0.1;
+}
+
+.suggestedAccounts__details {
+  flex: 0.9;
+  margin-left: 15px;
+}
+
+.suggestedAccounts__details a {
+  text-decoration: none;
+  color: black;
+}
+
+.suggestedAccounts__tiktokName {
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  width: max-content;
+}
+
+.suggestedAccounts__username {
+  font-size: 13px;
+}
+
+.suggestedAccounts__seeAll {
+  color: rgba(254, 44, 85, 1);
+  font-weight: bold;
+  margin-top: 10px;
+  cursor: pointer;
+}

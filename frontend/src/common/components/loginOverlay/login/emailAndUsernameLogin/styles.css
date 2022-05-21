@@ -1,0 +1,79 @@
+.loginOptions__login__emailUsername {
+  width: 100%;
+}
+
+.emailUsernameLogin__input {
+  border: 1px solid lightgray;
+  height: 50px;
+  background-color: rgba(199, 199, 199, 0.286);
+  border-radius: 5px;
+  width: 100%;
+  padding: 1em;
+  outline: none;
+}
+
+.emailUsernameLogin__passwordContainer {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  border: 1px solid lightgray;
+  height: 50px;
+  background-color: rgba(199, 199, 199, 0.286);
+  border-radius: 5px;
+  flex: 1;
+}
+
+.emailUsernameLogin__passwordInput {
+  width: 100%;
+  border-radius: 5px;
+  height: 100%;
+  padding: 1em;
+  background-color: transparent;
+  outline: none;
+  border: none;
+}
+
+.emailUsernameLogin__input {
+  margin-top: 0.1em;
+}
+
+.emailUsernameLogin__passwordContainer {
+  margin-top: 0.7em;
+}
+
+.forgotPassword {
+  margin-top: 0.7em;
+  font-size: 14px;
+  display: block;
+  cursor: pointer;
+}
+
+.forgotPassword:hover {
+  text-decoration: underline;
+}
+
+.loginButton,
+.loginButtonDisabled {
+  margin-top: 0.7em;
+  width: 100%;
+  height: 50px;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+}
+
+.loginButton {
+  background-color: #fe2c55;
+  color: white;
+  cursor: pointer;
+}
+
+.loginButtonDisabled {
+  background-color: rgba(199, 199, 199, 0.286);
+  color: gray;
+  cursor: not-allowed;
+}
+
+::-ms-reveal {
+  display: none !important;
+}

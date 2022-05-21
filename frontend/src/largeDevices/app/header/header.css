@@ -1,0 +1,76 @@
+.largeApp__header,
+.header__wrapper {
+  justify-content: space-between;
+  align-items: center;
+}
+
+.largeApp__header {
+  width: 100%;
+  border-bottom: 2px solid lightgray;
+  padding: 0.5em 2em;
+  height: 62px;
+}
+
+.header__wrapper {
+  width: 100%;
+  display: flex;
+  max-width: 1150px;
+  margin: auto;
+}
+
+.largeApp__headerImg {
+  height: 35px;
+}
+
+.header__searchContainer {
+  min-width: 300px;
+  display: flex;
+  background-color: rgba(195, 192, 192, 0.328);
+  padding: 0.5em 0.7em;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.header__searchContainerDivider {
+  width: 1px;
+  height: 25px;
+  border: 0.5px inset white;
+}
+
+.header__searchContainer > input {
+  height: 27px;
+  width: 100%;
+  border: none;
+  outline: none;
+  background-color: transparent;
+}
+
+.header__ctaButtons {
+  display: flex;
+  gap: 0.5em;
+}
+
+.header__ctaButtons button {
+  height: 39px;
+  padding: 0 0.5em;
+  border: none;
+  outline: none;
+  font-weight: bold;
+  font-size: 15px;
+  border-radius: 5px;
+  width: 100px;
+  cursor: pointer;
+}
+
+.header__loginButton {
+  background-color: rgba(254, 44, 85, 1);
+  color: white;
+}
+
+.header__uploadButton:hover {
+  text-decoration: underline;
+}
+
+.header__ctaButtons button:hover {
+  filter: brightness(0.8);
+}

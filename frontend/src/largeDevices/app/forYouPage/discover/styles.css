@@ -1,0 +1,36 @@
+.discover {
+  width: 100%;
+  border-top: 1px solid lightgray;
+  padding: 1em 0;
+}
+
+.discover > h4 {
+  color: grey;
+  margin-bottom: 10px;
+}
+
+.discover__tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.discover__tagWrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid lightgray;
+  padding: 3px 7px;
+  border-radius: 15px;
+  cursor: pointer;
+}
+
+.discover__tagWrapper:hover {
+  background-color: grey;
+  filter: brightness(1.8);
+}
+
+.discover__tagWrapper > span {
+  margin-left: 3px;
+  font-size: 14px;
+}

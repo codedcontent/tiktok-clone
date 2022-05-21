@@ -1,0 +1,96 @@
+.recommendation {
+  width: 100%;
+}
+
+.recommendation__details {
+  display: flex;
+  width: 100%;
+}
+
+.recommendation__avatar {
+  height: 70px;
+  width: 70px;
+  margin-right: 1em;
+}
+
+.recommendation__avatar > img {
+  height: auto;
+  width: 100%;
+  border-radius: 100%;
+}
+
+.recommendation__infoAndVideo {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  gap: 0.7em;
+  width: 100%;
+}
+
+.recommendation__infoAndCta {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.recommendation__namesAndDescription {
+  display: flex;
+  flex-direction: column;
+}
+
+.recommendation__names {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 5px;
+}
+
+.recommendation__tiktokName {
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.recommendation__username {
+  font-size: 12px;
+  text-transform: capitalize;
+}
+
+.recommendation__description {
+  margin-bottom: 5px;
+}
+
+.recommendation .userLink {
+  text-decoration: none;
+}
+
+.recommendation .userLink:hover,
+.recommendation__tiktokName:hover {
+  text-decoration: underline;
+  text-decoration-color: black;
+  cursor: pointer;
+}
+
+.recommendation .userLink__strong,
+span {
+  color: black;
+  font-size: 14px;
+}
+
+.recommendation__sound {
+  display: flex;
+  align-items: center;
+  font-weight: bold;
+}
+
+.recommendation__followButton {
+  color: rgba(254, 44, 85, 1);
+  border: 1px solid rgba(254, 44, 85, 1);
+  height: 30px;
+  width: 80px;
+  background-color: transparent;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.recommendation__followButton:hover {
+  background-color: rgba(211, 211, 211, 0.129);
+}

@@ -1,0 +1,120 @@
+.videoOptions {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+}
+
+.videoOptions__wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  gap: 0.5em;
+  padding-top: 1em;
+}
+
+.videoOptions__icon {
+  padding: 0.7em;
+  background-color: rgba(211, 211, 211, 0.506);
+  border-radius: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.videoOptions__icon:hover {
+  filter: brightness(0.95);
+}
+
+.videoOptions__shareIcon {
+  position: relative;
+}
+
+.videoOptions__shareOptions {
+  display: none;
+  padding-bottom: 10px;
+  z-index: 5;
+}
+
+.videoOptions__shareIcon:hover .videoOptions__shareOptions {
+  position: absolute;
+  bottom: calc(100%);
+  left: -24px;
+  width: 280px;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.4);
+  display: block;
+  z-index: 5;
+}
+
+.videoOptions__shareOptions:hover {
+  position: absolute;
+  bottom: calc(100%);
+  left: -24px;
+  width: 280px;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.4);
+  display: block;
+  z-index: 5;
+}
+
+.shareOptions__triangle {
+  display: none;
+  z-index: -2;
+}
+
+.videoOptions__shareIcon:hover .shareOptions__triangle {
+  position: absolute;
+  bottom: -7px;
+  background-color: white;
+  width: 20px;
+  height: 20px;
+  transform: rotate(45deg);
+  left: 40px;
+  display: block;
+  z-index: -2;
+}
+
+.shareOptions__triangle:hover {
+  position: absolute;
+  bottom: -7px;
+  background-color: white;
+  width: 20px;
+  height: 20px;
+  transform: rotate(45deg);
+  left: 40px;
+  display: block;
+  z-index: -2;
+}
+
+.shareOptions__option {
+  width: 100%;
+  display: flex;
+  gap: 0.5em;
+  align-items: center;
+  padding: 0.7em 1em;
+}
+
+.shareOptions__option:hover {
+  background-color: rgba(211, 211, 211, 0.451);
+}
+
+.shareOptions__option span {
+  font-weight: bold;
+}
+
+.shareOptions__showMore {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.shareOptions__showMore:hover {
+  background-color: rgba(211, 211, 211, 0.451);
+}

@@ -1,0 +1,29 @@
+.loginOption__QRCode {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 80%;
+  margin: auto;
+}
+
+.QRCode__steps {
+  width: 65%;
+  margin-top: 0.5em;
+}
+
+.QRCode__steps li {
+  font-size: 14px;
+  margin-bottom: 0.5em;
+}
+
+.QRCode__help {
+  margin-top: 2em;
+  color: #fe2c55;
+  font-weight: bold;
+  font-size: 17px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2px;
+}

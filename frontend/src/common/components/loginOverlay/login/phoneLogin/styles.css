@@ -1,0 +1,221 @@
+.loginOptions__login__phoneLogin {
+  width: 100%;
+}
+
+.login__phoneLoginOptions {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 5px;
+}
+
+.login__phoneLoginOption {
+  font-weight: bold;
+  font-size: 15px;
+}
+
+.login__phoneLoginOptionsAlt {
+  font-size: 13px;
+}
+
+.login__phoneLoginOptionsAlt:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.login__numberWrapper {
+  border: 1px solid lightgray;
+  height: 50px;
+  background-color: rgba(199, 199, 199, 0.286);
+  border-radius: 5px;
+  display: flex;
+  cursor: pointer;
+  position: relative;
+  align-items: center;
+}
+
+.login__numberWrapper:hover {
+  background-color: rgba(199, 199, 199, 0.313);
+}
+
+.login__countryCodes {
+  height: 100%;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-right: 1px solid lightgray;
+  padding: 0 0.5em;
+}
+
+.login__countryCodes > img {
+  width: 100%;
+  display: flex;
+}
+
+.countryCode {
+  height: 100%;
+  font-weight: 600;
+  padding: 0.5em 0 0.5em 0.2em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.countryCode > .code {
+  margin-right: 5px;
+}
+
+.login__phoneNumber {
+  height: 100%;
+  width: 100%;
+  flex: 1;
+  border: none;
+  outline: none;
+  background-color: transparent;
+  padding: 0.5em 1em;
+}
+
+.phoneLogin__countryCodeOptions {
+  max-height: 300px;
+  width: 320px;
+  overflow-y: scroll;
+  position: absolute;
+  top: calc(100% + 1px);
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  z-index: 1;
+}
+
+.countryCodeDataContainer {
+  padding: 0.5em;
+  width: 100%;
+  padding-left: 0.7em;
+}
+
+.countryCodeDataContainer:hover {
+  background-color: rgba(211, 211, 211, 0.231);
+}
+
+.dial_code {
+  margin-left: 5px;
+}
+
+.countryCodeOptions__searchContainer {
+  position: sticky;
+  top: 0;
+  width: 100%;
+  display: flex;
+  padding: 0.3em 0.5em;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 1px solid lightgray;
+  background-color: white;
+}
+
+.countryCodeOptions__searchInput {
+  width: 100%;
+  flex: 1;
+  border: none;
+  outline: none;
+  background-color: transparent;
+  padding: 0.5em 1em;
+}
+
+.dialCode {
+  margin-right: 1em;
+}
+
+.login__6DigitCode {
+  border: 1px solid lightgray;
+  height: 50px;
+  background-color: rgba(199, 199, 199, 0.286);
+  border-radius: 5px;
+  display: flex;
+  cursor: pointer;
+  position: relative;
+  margin-top: 0.6em;
+  align-items: center;
+}
+
+.login__6DigitCode:hover {
+  background-color: rgba(199, 199, 199, 0.313);
+}
+
+.login__6DigitInput {
+  height: 100%;
+  width: 100%;
+  flex: 0.6;
+  border: none;
+  outline: none;
+  background-color: transparent;
+  padding: 0.5em 1em;
+}
+
+.login__gDigitSend,
+.login__gDigitSendDisabled {
+  flex: 0.4;
+  border: none;
+  outline: none;
+  background-color: white;
+  border-left: 1px solid lightgray;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  font-weight: bold;
+}
+
+.login__gDigitSend {
+  cursor: pointer;
+  color: black;
+  height: 100%;
+}
+
+.login__gDigitSend:hover {
+  background-color: rgba(211, 211, 211, 0.619);
+}
+
+.login__gDigitSendDisabled {
+  color: rgba(128, 128, 128, 0.735);
+  cursor: not-allowed;
+  height: 100%;
+}
+
+.login__loginButton,
+.login__loginButtonDisabled {
+  width: 100%;
+  height: 50px;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+}
+
+.login__loginButton {
+  background-color: #fe2c55;
+  color: white;
+  cursor: pointer;
+}
+
+.login__loginButtonDisabled {
+  background-color: rgba(199, 199, 199, 0.286);
+  color: gray;
+  cursor: not-allowed;
+}
+
+.passwordLoginOpt {
+  /* margin-top: 0.5em; */
+  margin-bottom: 1em;
+  margin-top: 0.6em;
+}
+
+.countryCodeSearchParam {
+  color: dodgerblue;
+}
+
+.error {
+  border: 1px solid red;
+}
+
+.errorText {
+  color: red;
+}
